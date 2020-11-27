@@ -1,0 +1,22 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+}
+
+::root
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+div {
+    background-color: cadetblue;
+    border: black thin solid 1px;
+    height: 1.25rem;
+}
